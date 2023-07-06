@@ -1,7 +1,7 @@
 # TMFNet
 The offical repo for Trimap-guided feature mining and fusion network for natural image matting.
 ### Updates
-The ckpts and instructions are coming soon.
+The ckpts and instructions are coming in a few days.
 ### Citing
 If you find TMFNet useful in your research, please consider citing:
 ```BibTex
