@@ -1,5 +1,9 @@
 # TMFNet
 The offical repo for Trimap-guided feature mining and fusion network for natural image matting.
+### Install
+````bash
+pip install -r requirement_new.txt
+````
 ### Results and models
 
 |                              Model                               |    Training set     |    SAD    |    MSE     |   GRAD    |   CONN    | Test set | TTA |                              Download                               |
@@ -12,7 +16,7 @@ The offical repo for Trimap-guided feature mining and fusion network for natural
 ### Test command
 ````bash
 ./tools/dist_test.sh configs/mattors/gradloss/tmflaploss020.py comp1k.pth 2
-or with TTA
+###or with TTA
 ./tools/dist_test.sh configs/mattors/gradloss/tmflaploss020tta8.py comp1k.pth 2
 ````
 
