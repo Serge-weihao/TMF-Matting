@@ -9,6 +9,12 @@ The offical repo for Trimap-guided feature mining and fusion network for natural
 |           TMF_ciom            | CIOM train | 20.2 | 1.8 | 4.8 | 13.6 |         CIOM test           | No | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
 | TMF_ciom | CIOM train |   21.6   |   4.0   |   7.6   |   17.1   |         Composition-1K test          | No | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
 | TMF_ciom | CIOM train |   20.8   |   3.8   |   6.7   |   16.0   |         Composition-1K test          | Yes | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
+### Test command
+````bash
+./tools/dist_test.sh configs/mattors/gradloss/tmflaploss020.py comp1k.pth 2
+or with TTA
+./tools/dist_test.sh configs/mattors/gradloss/tmflaploss020tta8.py comp1k.pth 2
+````
 
 
 ### Citing
