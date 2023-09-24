@@ -1,7 +1,16 @@
 # TMFNet
 The offical repo for Trimap-guided feature mining and fusion network for natural image matting.
-### Updates
-The ckpts and instructions are coming in a few days.
+### Results and models
+
+|                              Model                               |    Training set     |    SAD    |    MSE     |   GRAD    |   CONN    | Test set | TTA |                              Download                               |
+| :--------------------------------------------------------------: | :------------: | :-------: | :--------: | :-------: | :-------: | :----------------: |:-------: | :-----------------------------------------------------------------: |
+|      TMF_comp1k       | Composition-1K train|   23.0   |   4.0   |   7.5   |   18.7  |         Composition-1K test          | No |[BaiduYun(Access Code:gjjr)](https://pan.baidu.com/s/1sy7wOFI8vEs1AJVG_2Icag)|
+|      TMF_comp1k       | Composition-1K train|   22.1   |   3.6   |   6.7   |   17.6  |         Composition-1K test          | Yes |[BaiduYun(Access Code:gjjr)](https://pan.baidu.com/s/1sy7wOFI8vEs1AJVG_2Icag)|
+|           TMF_ciom            | CIOM train | 20.2 | 1.8 | 4.8 | 13.6 |         CIOM test           | No | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
+| TMF_ciom | CIOM train |   21.6   |   4.0   |   7.6   |   17.1   |         Composition-1K test          | No | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
+| TMF_ciom | CIOM train |   20.8   |   3.8   |   6.7   |   16.0   |         Composition-1K test          | Yes | [BaiduYun(Access Code:zcww)](https://pan.baidu.com/s/1-ID40tkH8YUHz_PsWyLvLA)|
+
+
 ### Citing
 If you find TMFNet useful in your research, please consider citing:
 ```BibTex
