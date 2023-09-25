@@ -4,6 +4,11 @@ The offical repo for Trimap-guided feature mining and fusion network for natural
 ````bash
 pip install -r requirement_new.txt
 ````
+### Train command
+````bash
+python3 -m torch.distributed.launch --nproc_per_node=4 --master_port=$PORT \
+    tools/train.py configs/mattors/gradloss/tmflaploss020.py --launcher pytorch --work-dir $WORKDIR --ckpt-least 190000 --eval-least 500000 --eval-interval 2000 --ckpt-interval 2000 --total-iters 200000 --per-gpu 16
+````
 ### Results and models
 
 |                              Model                               |    Training set     |    SAD    |    MSE     |   GRAD    |   CONN    | Test set | TTA |                              Download                               |
